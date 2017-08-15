@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/p2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:text="
+
+Rajshahi division is in the northern part of Bangladesh has an area of 34513 sq. km and a population of 29.99 million. There are 16 districts and 57 municipalities under Rajshahi. It is famous for archeological and historical sites.Rajshahi town is situated besides the river Padma. In monsoon the great Padma is in full spate with its tides and waves whereas in winter it dwindles and you will feel the desert by the side of river. Rajshahi Division is famous for archeological and historical places like Mohastnangor, Paharpur Buddhist Monastery, Kantajee’s Temple, Ramshagar Dighi, Choto Sona Masjid, and Shopnopuri etc. You can visit Rajshahi University. It’s a very well planed University and you can visit The Shahid Smriti Sangraha Shala in the University, you can see the documents and photography’s from the language movement of 1952 to the liberation was 1972. You can also visit Borendra Research Museum. There you will find the ancient elements of Paharpur, Mohasthangar and Mohenjodaro.Main Tourist Spots in Rajshahi Division:Mahasthangarh - Paharpur Buddhist Monastery - Kantajee's Temple - Ramshagor Dighi - Shopnopuri - Choto Sona Mosque - Varendra Research Museum - Puthia-Hardinge Bridge-Pabna Mental Hospital etc ."
+            android:id="@+id/textView"
+            android:textColor="#f9f2f4" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-50dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/b1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Chill Wtih Rajshahi"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="-40dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="80dp"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="-50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Region"
+            android:drawableLeft="@mipmap/region"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button0" />
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Sightseeing"
+            android:drawableLeft="@mipmap/cam"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button9" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Activities"
+            android:drawableLeft="@mipmap/acti"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Weather Update"
+            android:onClick="toWeatherActivity"
+            android:drawableLeft="@mipmap/day"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="City walks"
+            android:drawableLeft="@mipmap/walkicon"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button3" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Festivals"
+            android:drawableLeft="@mipmap/festive"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button4" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Sports"
+            android:drawableLeft="@mipmap/game"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button5" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Safety"
+            android:drawableLeft="@mipmap/police"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button6" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Health"
+            android:drawableLeft="@mipmap/health"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button7" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Money"
+            android:drawableLeft="@mipmap/money"
+            android:drawablePadding="-50dp"
+            android:id="@+id/button8" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

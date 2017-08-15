@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1.BUSBD.COM
+                    For Bus Ticket                                   Help Line:"
+            android:id="@+id/textView"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview1"
+            android:text="01746474780,01727545460,01700558805,\n01992797700, 01992797701,  01992797702,  01992797703, 01992797699,01881172018"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://busbd.com.bd/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2.BDTickets.com
+                    Only For Bus                                     Help Line:"
+            android:id="@+id/textView3"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview4"
+            android:text="16460\nsupport@bdtickets.com"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="https://www.bdtickets.com/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView5"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3.SHOHOJ.COM
+                                               Only For Bus                             Help Line:"
+            android:id="@+id/textView6"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview7"
+            android:text="16374"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="https://www.shohoz.com/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView8"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4.SHYAMOLI PARIBAHAN
+                                               Only For Bus                             Help Line:"
+            android:id="@+id/textView9"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview10"
+            android:text="01727545460"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://www.shyamoliparibahan-bd.com/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView11"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5.Train Ticket
+                                               Bangladesh Railway                             Help Line:"
+            android:id="@+id/textView12"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview13"
+            android:text="http://rootsbd.com/eticket/"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="https://www.banglalink.net/en/personal/digital-services/mobile-financial-services/train-ticket \n http://bdnews24.com/business/2016/01/07/robi-brings-mobile-phone-based-train-ticketing-solution"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView14"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

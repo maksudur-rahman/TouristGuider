@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "532465652828",
+    "firebase_url": "https://bd-tourist-guide.firebaseio.com",
+    "project_id": "bd-tourist-guide",
+    "storage_bucket": "bd-tourist-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532465652828:android:36de3d95d216856e",
+        "android_client_info": {
+          "package_name": "com.example.bdtouristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532465652828-fcoqr48949lqud7ecnf140uhusk8i6bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCefnAn0QNgxYhMiiC7xTAgMPalyPA_uE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

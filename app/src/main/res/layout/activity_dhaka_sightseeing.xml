@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/lalbag"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="-100dp"/>
+
+        <TextView
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lalbag Fort"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This is one of the ancient landmark of Dhaka. The fort located at the old town (Old Dhaka). The for will welcome you through a wonderful gate. inside the fort you will find three main building structure. 1.The Mosque (west side), 2.The tomb of Pari-Bibi (middle of east-west of the fort), 3.The Diwan-i-aam palace (east side).
+in front of ' of Pari-Bibi ' you will find a wonderful water font. inside a complex you will find garden, pond etc. you can feel the ancient Dhaka from this Fort.
+The Fort have some destruction. Many unplanned residential building build on the edges of the Fort wall. On the way to Fort you may have to face big traffic jam. As this is in the old town. it is always recommend you cover the old town visit and fort visit together. Try to take local tri-cycle (Riksawa) during your visit.
+
+Entry fees of Fort
+Local Tourists: 20 TK
+SAARC Country Tourists: 100 TK
+Other Foreigners: 200 TK
+
+https://www.tripadvisor.co.nz/ShowUserReviews-g293936-d550584-r374563466-Lalbag_Fort-Dhaka_City_Dhaka_Division.html#"
+
+            android:id="@+id/textView2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@mipmap/nationalparliament"
+            android:layout_marginTop="-100dp"
+            android:layout_marginBottom="-100dp"/>
+
+        <TextView
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="National Parliament House"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"
+            android:id="@+id/textView1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="National Parliament House is the house of the Parliament of Bangladesh, located at Sher-e-Bangla Nagar in the Bangladeshi capital of Dhaka. Designed by architect Louis Kahn, the complex, is one of the largest legislative complexes in the world, comprising 200 acres.Although entrance to the Bhaban, the Main Building, is limited to authorized members of Parliament and staff, the Jatiyo Sangshad complex is open to visitors. North of the complex, across the Lake Road, is Crescent Lake and Chandrima Uddan . The two complexes together form a major attraction for tourists in Dhaka. The complexes are popular among joggers and skaters of Dhaka. The official Prime Minister's Residence is on the North West corner of the Mirpur Road and Lake Road crossing and is a five-minute walk from the Jatiya Sangsad Bhaban. The area is one of the higher security zones of Dhaka.
+The Complex can be accessed using any of the four roads surrounding it, however, the Manik Mia Avenue and Lake Road are the easiest approaches."
+            android:id="@+id/textView3" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/temple"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="-100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dhakeshwari Temple"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dhakeshwari National Temple is a Hindu temple in Dhaka city. It is state-owned, giving it the distinction of being Bangladesh’s ‘National Temple’. The name “Dhakeshwari” means “Goddess of Dhaka”. Since the destruction of Ramna Kali Mandir in 1971 by the Pakistan Army during the Bangladesh Liberation War, the Dhakeshwari Temple has assumed status as the most important Hindu place of worship in Bangladesh.This place is located in Bakshi Bazar, Dhakeshwari Road. Take any local bus or rickshaw to reach that place."
+            android:id="@+id/textView5" />
+        <ImageView
+            android:layout_marginTop="-230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@mipmap/shahidminara"
+           />
+
+        <TextView
+            android:layout_marginTop="-230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Shaheed Minar"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This is a historic place in Dhaka where the place is celebrated and remembered for Martyr Contribution. It is located near to Dhaka University another landmark in Dhaka. The place offers you a unique peace of mind with walls infront of the Monuments covered full with graffiti taking one closer to the art of Bangladesh. The graffiti is written in local language but the pictures can describe one the story. This is definitely a visit watch place to drop by if in Dhaka."
+            android:id="@+id/textView7" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@mipmap/ahsan_monjil"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ahsan Manzil"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ahsan Manzil was the official residential palace and seat of the Nawab of Dhaka.The building is situated at Kumartoli along the banks of the Buriganga River in Dhaka, Bangladesh. It has been designated as a national museum.It is stiuated in Old Dhaka. "
+            android:id="@+id/textView9" />
+
+
+    </LinearLayout>
+</ScrollView>

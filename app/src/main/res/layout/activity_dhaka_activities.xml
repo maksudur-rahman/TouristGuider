@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1.Metro Shopping Mall
+                    Open until 8:00PM                     Help Line:"
+            android:id="@+id/textView"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview1"
+            android:text="+880 1670-111100"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://www.metroshoppingmall.com/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2.Jamuna Future Park
+                    Open until 10:00PM                     Help Line:"
+            android:id="@+id/textView3"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview4"
+            android:text="+880 2-8413772"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://jamunafuturepark.com/"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView5"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3.Bashundhara City Shopping Mall
+                                               Open until 10:00PM                            Help Line:"
+            android:id="@+id/textView6"
+            android:lineSpacingExtra="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:id="@+id/texview7"
+            android:text="+880 1823-546992"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more visit :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://www.online-dhaka.com/english/1_2_3295_0-bashundhara-city-shopping-mall-dhaka-en.html"
+            android:autoLink="all"
+            android:clickable="true"
+            android:id="@+id/textView8"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
